@@ -1,5 +1,6 @@
 package com.adohong.leetcode.practice.bsttocreatertree;
 
+import com.adohong.leetcode.practice.common.datastructure.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -56,16 +57,4 @@ class Vex {
 
     TreeNode treeNode;
     int number;
-}
-
-
-class TreeNode {
-
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
 }

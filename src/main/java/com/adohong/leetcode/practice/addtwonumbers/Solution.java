@@ -1,5 +1,7 @@
 package com.adohong.leetcode.practice.addtwonumbers;
 
+import com.adohong.leetcode.practice.common.datastructure.ListNode;
+
 public class Solution {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -28,14 +30,4 @@ public class Solution {
     }
 
 
-}
-
-class ListNode {
-
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
 }
