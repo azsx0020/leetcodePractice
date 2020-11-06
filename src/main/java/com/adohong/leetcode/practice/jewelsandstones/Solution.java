@@ -1,4 +1,4 @@
-package jewelsandstones;
+package com.adohong.leetcode.practice.jewelsandstones;
 
 
 public class Solution {

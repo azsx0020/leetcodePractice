@@ -18,7 +18,7 @@ f[0][2] = INT_MAX
 f[1][2] = INT_MAX
 f[i][2] = min{f[i-1][1], f[i-1][2]} + isYellow(i), i > 1
 
-最终求f[n][2]，n为叶子总数
+最终求f[n-1][2]，n为叶子总数
 */
 
 class Solution {
